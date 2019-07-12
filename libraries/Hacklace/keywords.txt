@@ -1,0 +1,113 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Hacklace	KEYWORD1
+Hacklace_App	KEYWORD1
+Hacklace_AppEngine	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+initialize	KEYWORD3
+copyToEeprom	KEYWORD2
+setBrightness	KEYWORD2
+setSpacing	KEYWORD2
+setScrollSpeed	KEYWORD2
+setScrollMode	KEYWORD2
+setCursor	KEYWORD2
+cursorHome	KEYWORD2
+setViewport	KEYWORD2
+clearDisplay	KEYWORD2
+printByte	KEYWORD2
+printImage_P	KEYWORD2
+printChar	KEYWORD2
+printString	KEYWORD2
+printString_P	KEYWORD2
+printString_EE	KEYWORD2
+printMiniDigit	KEYWORD2
+getPixel	KEYWORD2
+setPixel	KEYWORD2
+drawRect	KEYWORD2
+print0_99	KEYWORD2
+sysTimerHasElapsed	KEYWORD2
+scrollSync	KEYWORD2
+run	KEYWORD3
+goToSleep	KEYWORD2
+powerDown	KEYWORD2
+buttonAck	KEYWORD2
+disableButton2	KEYWORD2
+enableButton2	KEYWORD2
+enableFreqCounter	KEYWORD2
+disableFreqCounter	KEYWORD2
+getFreqCounter	KEYWORD2
+getFrequency	KEYWORD2
+getPeriod	KEYWORD2
+getInt1Count	KEYWORD2
+copyToEeprom	KEYWORD2
+displayMemory	KEYWORD2
+button	KEYWORD2
+
+
+######################################
+# Constants (LITERAL1)
+#######################################
+DISP_MAX	LITERAL1
+DISP_COLS	LITERAL1
+DISP_ROWS	LITERAL1
+DISP_MAX_BRIGHT	LITERAL1
+
+# push button events
+BTN1_PRESSED	LITERAL1
+BTN1_RELEASED	LITERAL1
+BTN1_LONGPRESSED	LITERAL1
+BTN2_PRESSED	LITERAL1
+BTN2_RELEASED	LITERAL1
+BTN2_LONGPRESSED	LITERAL1
+
+# scrolling directions
+NO_SCROLLING	LITERAL1
+FORWARD	LITERAL1
+BACKWARD	LITERAL1
+BIDIRECTIONAL	LITERAL1
+
+# special characters
+HL2_LOGO	LITERAL1
+HAPPY_SMILEY	LITERAL1
+SAD_SMILEY	LITERAL1
+SKULL	LITERAL1
+HEART	LITERAL1
+INVADER1	LITERAL1
+INVADER2	LITERAL1
+INVADER3	LITERAL1
+GHOST	LITERAL1
+FOX	LITERAL1
+NOTES	LITERAL1
+NOTE	LITERAL1
+GLASS	LITERAL1
+MOBILE	LITERAL1
+FLASH	LITERAL1
+LIGHTBULB	LITERAL1
+MALE	LITERAL1
+FEMALE	LITERAL1
+PHONE	LITERAL1
+STICKFIG	LITERAL1
+DIAMOND	LITERAL1
+CLOCK	LITERAL1
+BELL	LITERAL1
+SPC1	LITERAL1
+SPC8	LITERAL1
+RAW	LITERAL1
+
+# app_engine
+MAX_APPS	LITERAL1
+EE_START_ADDR	LITERAL1
+
+# Hacklace instance
+HL	LITERAL2

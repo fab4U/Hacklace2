@@ -1,0 +1,12 @@
+HL									\# initialization sequence
+
+\00 86 01\ Hacklace2 Games\7F 00\
+\00 85 01\ Four wins\7F 00\
+\0D\								\# four wins
+\00 85 01\ Snake\7F 00\
+\0E\								\# snake
+\00 85 01\ Jump\7F 00\
+\0F\								\# jump
+\00 85 01\ Frogger\7F 00\
+\10\								\# frogger
+\FF\								\# --- end of list ---

@@ -1,0 +1,54 @@
+\# Hacklace2 default configuration file
+\# software version 06
+
+HL										\# initialization sequence
+
+\#\00 76 01\ my new message \00\		\# remove comment to add this message
+\00 76 01\ Hacklace2 \03 A0 00\
+\00 85 01\ Arduino-compatible\7F 00\
+\00 85 01\ I \04\ electronics!  \00\
+\00 86 01\ High Voltage \10 00\
+\00 54 08 A0 A0 04 7F A0 A0 04 7F 00\	\# heartbeat
+\00 83 21 05 20 06 20 07 20 08 00\		\# monster
+\00 B0 08 81 00\						\# fire
+\00 A9 01 82 00\						\# plug & socket
+\00 8B 08 83 00\						\# arrow
+\00 A9 18 7F 84 7F 00\					\# ball
+\00 A8 01 85 00\						\# ECG
+\00 8A 08 86 00\						\# droplet
+\00 88 01 7F 87 7F 00\					\# train
+\00 88 08 88 00\						\# pong
+\00 35 08 89 00\						\# wink
+\00 7A 08 8A 7F 00\						\# TNT
+\00 14 08 8B 00\						\# house
+\00 57 08 8C 00\						\# creeper
+\00 A5 08 8D 00\						\# tunnel
+\00 36 08 8E 00\						\# snow
+\00 50 08 8F 00\						\# dancer
+\00 36 08 90 00\						\# fish
+\00 80 08 91 00\						\# radar
+\00 A0 08 92 00\						\# propeller
+\00 79 08 93 00\						\# flat cat
+\00 A0 08 94 00\						\# squares
+\00 35 08 95 96 00\						\# tetris
+\00 67 08 97 00\						\# rocket
+\00 90 08 98 00\						\# spectrum
+\00 A0 08 99 00\						\# checkers
+\00 79 08 9A 00\						\# headbang
+\#\00 5A 08 9F 00\						\# french revolution
+\1E\									\# example app
+\01\									\# spiral app
+\02\									\# counter app
+\03 20 0F 04 05 06 00 00 00 00 00\		\# game-of-life app
+\03 05 32 00 24 5A 24 24 5A 24 00\		\# game-of-life app
+\03 06 0A 00 04 6C 38 1C 36 20 00\		\# game-of-life app
+\08\									\# stopwatch
+\04 27\									\# voltmeter (resistor = 39k)
+\06\									\# frequency meter
+\0C\									\# jukebox
+\07\									\# thermometer
+\14 02 12 34 99 99\						\# code lock (code 1234 and 9999)
+\09 42 08\								\# speedometer (circumference = 2114 mm)
+\05\									\# battery monitor
+\15\									\# display test
+\FF\									\# --- end of list ---
